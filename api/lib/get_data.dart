@@ -11,7 +11,7 @@ class GetDataScreen extends StatefulWidget{
 }
 
 class _GetDataScreenState extends State<GetDataScreen> {
-  final String url = "https://reqres.in/api/users?page=1";
+  final String url = "https://reqres.in/api/users?page=2";
   List? data;
   @override
   void initState(){
